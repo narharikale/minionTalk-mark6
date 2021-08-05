@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@500&display=swap');
+
+
+
+
+:root{
+    --primary-color: #ECA72C;
+    --buttonBackground: #312f2a;
+    --borderColor: #feea00;
+    --outputBackground: #feea0069;
+    --buttonColor: #feea00;
+}
+*{
+    box-sizing: border-box;
+}
+
+body {
+    
+    text-align: center;
+    font-family: 'Georama', sans-serif;
+    margin: 0;
+}
+
+
+
+.main{
+    background-image: url(/mn2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    min-height: 100vh;;
+
+}
+.link{
+    color:black;
+    
+}
+textarea{
+    
+    display: block;
+    box-sizing: border-box;
+    padding:1.2rem;
+    max-width: 40rem;
+    width: 60%;
+    height: 90px;
+    margin: 2rem auto;
+    font-size: x-large;
+
+    border: 2px solid var(--borderColor);
+}
+button{
+    margin: 2rem 0rem ;
+    padding: 1rem 2rem;
+    background-color:var(--buttonBackground);
+    color: var(--buttonColor);
+    font-size: x-large;
+}
+.GitDiv{
+    max-width: 30rem;
+    
+    display: flex;
+    background-color: #fff06969;
+    font-size: x-large;
+    flex-direction: row;
+    margin:auto;
+    justify-content: space-evenly;
+}
+
+
+
+#output-div{
+    
+    display: block;
+    box-sizing: border-box;
+    max-width: 40rem;
+    width: 60%;
+    min-height: 100px;
+    height: fit-content;
+    margin: 2rem auto;
+    padding: 0.2rem;
+    background-color: var(--outputBackground);
+    border: 2px solid var(--borderColor);
+}
+
